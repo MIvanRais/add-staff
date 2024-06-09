@@ -207,7 +207,7 @@ export default function AddStaffForm() {
                           variant="standard"
                           sx={{ width: "100%", mt: index > 0 && 2 }}
                           type="number"
-                          value={fieldSet.accountNumber}
+                          // value={fieldSet.accountNumber}
                           // onChange={}
                         />
                       </Box>
@@ -223,7 +223,7 @@ export default function AddStaffForm() {
                           variant="standard"
                           sx={{ width: "48%" }}
                           type="number"
-                          value={fieldSet.isbp}
+                          // value={fieldSet.isbp}
                           // onChange={}
                         />
                         <TextField
@@ -232,7 +232,7 @@ export default function AddStaffForm() {
                           variant="standard"
                           sx={{ width: "48%" }}
                           type="number"
-                          value={fieldSet.compeCode}
+                          // value={fieldSet.compeCode}
                           // onChange={}
                         />
                       </Stack>
@@ -241,7 +241,7 @@ export default function AddStaffForm() {
                         label="Issuer"
                         variant="standard"
                         sx={{ mt: 1, width: "100%" }}
-                        value={fieldSet.issuer}
+                        // value={fieldSet.issuer}
                         // onChange={}
                       />
                       <Stack
@@ -257,7 +257,7 @@ export default function AddStaffForm() {
                           defaultValue="something"
                           variant="standard"
                           sx={{ width: "48%" }}
-                          value={fieldSet.accountType}
+                          // value={fieldSet.accountType}
                           // onChange={}
                         >
                           <MenuItem key="0" value="something">
@@ -272,13 +272,13 @@ export default function AddStaffForm() {
                           label="Covenant"
                           variant="standard"
                           sx={{ width: "48%" }}
-                          value={fieldSet.covenant}
+                          // value={fieldSet.covenant}
                           // onChange={}
                         />
                       </Stack>
                     </div>
                   ))}
-                  <Box sx={{ my: 1 }}>
+                  <Box sx={{ my: 1, width: "fit-content" }}>
                     <Link
                       href="#"
                       underline="always"
