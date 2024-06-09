@@ -1,0 +1,14 @@
+body {
+  background-color: hsl(216, 15%, 94%) !important;
+  height: 100vh;
+  overflow-y: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
